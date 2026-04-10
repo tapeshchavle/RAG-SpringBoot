@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: rag
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  ai:
+    openai:
+      api-key: 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
+      base-url: https://integrate.api.nvidia.com
+      chat:
+        options:
+          model: moonshotai/kimi-k2-instruct
+      embedding:
+        enabled: false # Disable OpenAI embeddings as we use the local transformers
