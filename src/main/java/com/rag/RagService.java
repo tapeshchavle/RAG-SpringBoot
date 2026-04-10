@@ -33,6 +33,8 @@ public class RagService {
         List<Document> documents = textSplitter.apply(pdfReader.get());
         
         vectorStore.add(documents);
+
+        System.out.println(vectorStore);
     }
 
     public String askQuestion(String question) {
