@@ -1,4 +1,4 @@
-# Spring Boot RAG Pipeline with Nvidia KIMI
+# Spring Boot RAG Pipeline with Nvidia KIMI-
 
 A full-fledged Retrieval-Augmented Generation (RAG) pipeline built using Spring Boot and the Spring AI framework. This application allows you to seamlessly ingest PDF documents, automatically vectorize their text into local in-memory embeddings, and perform intelligent, context-aware Q&A against the PDF using the NVIDIA `moonshotai/kimi-k2-instruct` AI model.
 
